@@ -1,0 +1,41 @@
+nav div a{
+  color: aliceblue !important;
+}
+.dropdown-item:hover{
+background-color: rgb(86, 158, 71);
+}
+.products-intro a {
+  text-decoration: none;
+  color: black;
+}
+.bg-lights{
+background-color: rgba(28,62,21);
+}
+
+.bg-jumbo{
+  background: url(./images/bg-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  color: aliceblue !important;
+}
+
+.rice-jumbo{
+  height: 60vh;
+  background: url(./images/rice-jumbo.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.tomatojumbo{
+  height: 60vh;
+  background: url(./images/tomatojumbo.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}

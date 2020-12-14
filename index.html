@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="./styles.css">
+<title>AgriNeX</title>
+</head>
+<header>
+ <nav class="navbar navbar-expand-lg navbar-light bg-lights">
+   <div class="container">
+   <a class="navbar-brand" href="#">AgriNeX</a>
+   <!--<a class="navbar-brand" href="#">
+     <img src="..." class="d-inline-block align-top" width="30" height="30" alt="...">My Brand
+   </a>-->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarContent">
+     <ul class="navbar-nav ml-auto ">
+       <li class="nav-item active mr-5">
+         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Products
+         </a>
+         <div class="dropdown-menu bg-lights" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#rice">Rice</a>
+           <a class="dropdown-item" href="#">Tomatoes</a>
+           <a class="dropdown-item" href="#">Yam</a>
+           <a class="dropdown-item" href="#">Onions</a>
+
+         </div>
+       </li>
+     </ul>
+   </div>
+   </div>
+ </nav>
+ <div class="jumbotron jumbotron-fluid bg-jumbo">
+   <div class="container">
+     <h1 class="display-4">AgriNex</h1>
+     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <hr class="my-4">
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <a class="btn btn-success btn-sm" href="#" role="button">Learn more</a>
+   </div>
+ </div>
+</header>
+<hr>
+<section class=" intro container">
+  <h2 class="text-center">
+    About-Us
+  </h2>
+  <h3 class="title">
+        AgriNeX
+      </h3>
+  <div class="row">
+    <div class="col-md-6">
+      
+      <p class="text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae assumenda voluptatem quasi aliquid nesciunt voluptates iure consequatur consectetur repellendus, dicta reprehenderit quod molestias iste molestiae non. Corporis voluptatem asperiores itaque?
+      </p>
+      <p class="text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsa sit animi magnam soluta voluptate illum ipsum quam tempora similique eaque vero, rem quos nihil! Ad quo nam sed cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis hic est id eaque porro obcaecati! A id maxime expedita.
+      </p>
+      <h3 class="title">
+        Our Services
+      </h3>
+      <p class="text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsa sit animi magnam soluta voluptate illum ipsum quam tempora similique eaque vero, rem quos nihil! Ad quo nam sed cum. Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <img class="card-img-top" src="./images/landing-img.jpeg" style=""  alt="Card image cap">
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="products-intro container">
+  <h2 class="text-center">
+    Our Products
+  </h2>
+  <div class="row  row-cols-md-4" >
+    <!--tips: use row-cols-md-(X) to control how many of columns to show per row-->
+    <!--tips: when you need equal height, add .h-100 to the cards-->
+    <!--Card1-->
+   <a href="#rice"><div class="col mb-4">
+      <div class="card">
+        <img src="./images/rice-in=mg.jpg" class="card-img-top" style="height:33vh;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rice</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div></a> 
+    <!--Card2-->
+    <a href=""><div class="col mb-4">
+      <div class="card">
+        <img src="./images/tomatoes-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tomatoes</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div></a> 
+    <!--Card3-->
+   <a href=""><div class="col mb-4">
+      <div class="card">
+        <img src="./images/yamtuber.jpg" class="card-img-top" style="height:33vh;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Yam</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div></a> 
+    <!--Card4-->
+   <a href=""><div class="col mb-4">
+      <div class="card">
+        <img src="./images/tomatoes-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Onions</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div></a> 
+  </div>
+</section>
+<hr>
+
+<section class="rice" id="rice">
+  <div class="jumbotron-fluid rice-jumbo">
+    <div class="m-5 p-3">
+       <h1 class="display-4">Rice</h1>
+    <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
+  </div>
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <p class="display-5 text-justify">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus voluptas rem, delectus ullam veniam explicabo sed, excepturi modi quam ad tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum? Alias voluptates atque provident rerum maiores? Nisi pariatur hic maxime natus ex molestiae delectus quibusdam. Soluta porro provident fugiat facere pariatur modi deleniti, ipsa dolorum sequi iusto eos accusamus magni.
+   </p>
+  <p>
+    Farmer's locations include ...
+    </p>
+
+     <table class="table">
+    <thead>
+      <tr>
+        <th>Farm's Location</th>
+        <th>Farmer's Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kano</td>
+        <td>+234-817654322</td>
+      </tr>
+      <tr>
+        <td>Kastina</td>
+        <td>+234-814332233</td>
+      </tr>
+      <tr>
+        <td>Jos</td>
+        <td>+234-81345765</td>
+      </tr>
+    </tbody>
+  </table>
+    
+  </div>  
+   
+</section>
+<section class="rice" id="rice">
+  <div class="jumbotron-fluid tomatojumbo">
+    <div class="m-5 p-3">
+       <h1 class="display-4">Tomato</h1>
+    <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
+  </div>
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <p class="display-5 text-justify">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus voluptas rem, delectus ullam veniam explicabo sed, excepturi modi quam ad tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum? Alias voluptates atque provident rerum maiores? Nisi pariatur hic maxime natus ex molestiae delectus quibusdam. Soluta porro provident fugiat facere pariatur modi deleniti, ipsa dolorum sequi iusto eos accusamus magni.
+   </p>
+  <p>
+    Farmer's locations include ...
+    </p>
+
+     <table class="table">
+    <thead>
+      <tr>
+        <th>Farm's Location</th>
+        <th>Farmer's Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kano</td>
+        <td>+234-817654322</td>
+      </tr>
+      <tr>
+        <td>Kastina</td>
+        <td>+234-814332233</td>
+      </tr>
+      <tr>
+        <td>Jos</td>
+        <td>+234-81345765</td>
+      </tr>
+    </tbody>
+  </table>
+    
+  </div>  
+   
+  <section class="rice" id="rice">
+  <div class="jumbotron-fluid rice-jumbo">
+    <div class="m-5 p-3">
+       <h1 class="display-4">Rice</h1>
+    <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
+  </div>
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <p class="display-5 text-justify">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus voluptas rem, delectus ullam veniam explicabo sed, excepturi modi quam ad tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum? Alias voluptates atque provident rerum maiores? Nisi pariatur hic maxime natus ex molestiae delectus quibusdam. Soluta porro provident fugiat facere pariatur modi deleniti, ipsa dolorum sequi iusto eos accusamus magni.
+   </p>
+  <p>
+    Farmer's locations include ...
+    </p>
+
+     <table class="table">
+    <thead>
+      <tr>
+        <th>Farm's Location</th>
+        <th>Farmer's Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kano</td>
+        <td>+234-817654322</td>
+      </tr>
+      <tr>
+        <td>Kastina</td>
+        <td>+234-814332233</td>
+      </tr>
+      <tr>
+        <td>Jos</td>
+        <td>+234-81345765</td>
+      </tr>
+    </tbody>
+
+  </table>
+    
+  </div>  
+   
+  <section class="rice" id="rice">
+  <div class="jumbotron-fluid rice-jumbo">
+    <div class="m-5 p-3">
+       <h1 class="display-4">Rice</h1>
+    <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
+  </div>
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <p class="display-5 text-justify">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusamus voluptas rem, delectus ullam veniam explicabo sed, excepturi modi quam ad tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eum? Alias voluptates atque provident rerum maiores? Nisi pariatur hic maxime natus ex molestiae delectus quibusdam. Soluta porro provident fugiat facere pariatur modi deleniti, ipsa dolorum sequi iusto eos accusamus magni.
+   </p>
+  <p>
+    Farmer's locations include ...
+    </p>
+
+     <table class="table">
+    <thead>
+      <tr>
+        <th>Farm's Location</th>
+        <th>Farmer's Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kano</td>
+        <td>+234-817654322</td>
+      </tr>
+      <tr>
+        <td>Kastina</td>
+        <td>+234-814332233</td>
+      </tr>
+      <tr>
+        <td>Jos</td>
+        <td>+234-81345765</td>
+      </tr>
+    </tbody>
+  </table>
+    
+  </div>  
+   
+</section>
+</section>
+</section>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
