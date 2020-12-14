@@ -31,7 +31,7 @@ header{
 #yam{
   display: none;
 }
-#onion{
+#onions{
   display: none;
 }
 .rice-jumbo{
@@ -66,5 +66,20 @@ header{
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: aliceblue;
+}
+footer .list-items a{
+  color: aliceblue;
+  text-decoration: none;
+}
+ul li a{
+  text-decoration: none;
+}
+.list-items2 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer {
   color: aliceblue;
 }
