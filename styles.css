@@ -22,6 +22,18 @@ header{
   color: aliceblue !important;
 }
 
+#rice{
+  display: none;
+}
+#tomato{
+  display: none;
+}
+#yam{
+  display: none;
+}
+#onion{
+  display: none;
+}
 .rice-jumbo{
   height: 60vh;
   background: url(./images/rice-jumbo.jpg);
@@ -37,5 +49,22 @@ header{
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
+  color: aliceblue;
+}
+
+.yamjumbo{
+  height: 60vh;
+  background: url(./images/yamjumbo.jpg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+.onionjumbo{
+  height: 60vh;
+  background: url(./images/onionjumbo.jpeg);
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
 }

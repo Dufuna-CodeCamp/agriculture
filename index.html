@@ -30,10 +30,10 @@
            Products
           </a>
          <div class="dropdown-menu bg-lights" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="#rice">Rice</a>
-           <a class="dropdown-item" href="#">Tomatoes</a>
-           <a class="dropdown-item" href="#">Yam</a>
-           <a class="dropdown-item" href="#">Onions</a>
+           <a class="dropdown-item" href="#" onclick="newVisibiltyRice()">Rice</a>
+           <a class="dropdown-item" href="#" onclick="newVisibiltyTomato()">Tomatoes</a>
+           <a class="dropdown-item" href="#" onclick="newVisibiltyYam()">Yam</a>
+           <a class="dropdown-item" href="#" onclick="newVisibiltyTomato()">Onions</a>
 
          </div>
        </li>
@@ -41,7 +41,7 @@
    </div>
    </div>
  </nav>
- <div class="jumbotron jumbotron-fluid bg-jumbo">
+ <div class="jumbotron jumbotron-fluid bg-jumbo landing">
    <div class="container">
      <h1 class="display-4">AgriNex</h1>
      <p class="lead">AgriNex is the leading agtech company in Nigeria focused on providing the necessary information and technology for farmers and agribusinesses to boost food production with better yields, lower costs, and smarter marketing.</p>
@@ -87,7 +87,8 @@
     <!--tips: use row-cols-md-(X) to control how many of columns to show per row-->
     <!--tips: when you need equal height, add .h-100 to the cards-->
     <!--Card1-->
-   <a href="#rice"><div class="col mb-4">
+   <a href="#rice" onclick="newVisibiltyRice()">
+     <div class="col mb-4">
       <div class="card">
         <img src="./images/rice-in=mg.jpg" class="card-img-top" style="height:33vh;" alt="...">
         <div class="card-body">
@@ -97,7 +98,8 @@
       </div>
     </div></a> 
     <!--Card2-->
-    <a href=""><div class="col mb-4">
+    <a href="#tomato" onclick="newVisibiltyTomato()">
+      <div class="col mb-4">
       <div class="card">
         <img src="./images/tomatoes-1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -107,7 +109,8 @@
       </div>
     </div></a> 
     <!--Card3-->
-   <a href=""><div class="col mb-4">
+   <a href="#yam" onclick="newVisibiltyYam()">
+     <div class="col mb-4">
       <div class="card">
         <img src="./images/yamtuber.jpg" class="card-img-top" style="height:33vh;" alt="...">
         <div class="card-body">
@@ -117,7 +120,8 @@
       </div>
     </div></a> 
     <!--Card4-->
-   <a href=""><div class="col mb-4">
+   <a href="#onions" onclick="newVisibiltyOnions()">
+     <div class="col mb-4">
       <div class="card">
         <img src="./images/red-and-white-onions.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -129,7 +133,7 @@
   </div>
 </section>
 <hr>
-
+<!-- rice session -->
 <section class="rice" id="rice">
   <div class="jumbotron-fluid rice-jumbo">
     <div class="m-5 p-3">
@@ -185,9 +189,10 @@
   </table>
     
   </div>  
-   
 </section>
-<section class="rice" id="rice">
+
+<!-- tomato session -->
+<section class="tomato" id="tomato">
   <div class="jumbotron-fluid tomatojumbo">
     <div class="m-5 p-3">
        <h1 class="display-4">Tomato</h1>
@@ -226,11 +231,12 @@
   </table>
     
   </div>  
-   
-  <section class="rice" id="rice">
-  <div class="jumbotron-fluid rice-jumbo">
+</section>
+   <!-- yam session -->
+  <section class="yam" id="yam">
+  <div class="jumbotron-fluid yamjumbo">
     <div class="m-5 p-3">
-       <h1 class="display-4">Rice</h1>
+       <h1 class="display-4">Yam</h1>
     <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
   </div>
   </div>
@@ -267,9 +273,10 @@
   </table>
     
   </div>  
-   
-  <section class="rice" id="rice">
-  <div class="jumbotron-fluid rice-jumbo">
+</section>
+   <!-- onion session -->
+  <section class="onion" id="onions">
+  <div class="jumbotron-fluid onionjumbo">
     <div class="m-5 p-3">
        <h1 class="display-4">Rice</h1>
     <h5 class="text-left ml-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet  </h5>
@@ -308,13 +315,12 @@
     
   </div>  
    
-</section>
-</section>
 </section>
 <body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
